@@ -1,10 +1,12 @@
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Categories from "./components/Categories/Categories";
 
 function App() {
   return (
     <>
-      <h1>i am hari</h1>
-      <p>i am a student</p>
+      <Navbar />
+      <Categories />
     </>
   );
 }
