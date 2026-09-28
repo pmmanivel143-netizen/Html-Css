@@ -79,35 +79,3 @@ body {
   }
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-  .categories {
-    padding: 50px 5%;
-  }
-
-  .heading h1 {
-    font-size: 28px;
-  }
-
-  .heading p {
-    font-size: 14px;
-  }
-
-  .categoriesContainer {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-  }
-
-  .categoryItem {
-    padding: 15px 10px;
-  }
-
-  .categoryItem img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .categoryItem h2 {
-    font-size: 17px;
-  }
-}
