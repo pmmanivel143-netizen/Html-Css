@@ -71,11 +71,3 @@ body {
   margin: 0;
   font-weight: 600;
 }
-
-/* Tablet */
-@media (max-width: 900px) {
-  .categoriesContainer {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
